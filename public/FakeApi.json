@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "wilaya": "Adrar",
+        "temperature": "37°C",
+        "humidity": "10%",
+        "vent": "10 km/h",
+        "description": "Sunny",
+        "Pic": "./Pic/sun.svg"
+    },
+    {
+        "id": 2,
+        "wilaya": "Chlef",
+        "temperature": "25°C",
+        "humidity": "36%",
+        "vent": "3 km/h",
+        "description": "Partially covered",
+        "Pic": "./Pic/sun-clouds.svg"
+    },
+    {
+        "id": 3,
+        "wilaya": "Laghouat",
+        "temperature": "31°C",
+        "humidity": "42%",
+        "vent": "0 km/h",
+        "description": "Sunny",
+        "Pic": "./Pic/sun.svg"
+    },
+    {
+        "id": 4,
+        "wilaya": "Oum El Bouaki",
+        "temperature": "26°C",
+        "humidity": "10%",
+        "vent": "10 km/h",
+        "description": "Sunny",
+        "Pic": "./Pic/sun.svg"
+    },
+    {
+        "id": 5,
+        "wilaya": "Batna",
+        "temperature": "28°C",
+        "humidity": "27%",
+        "vent": "6 km/h",
+        "description": "Partially covered",
+        "Pic": "./Pic/sun-clouds.svg",
+        "Warning":{
+            "war": true ,
+            "Newweather": "it's going to rain",
+            "Time": "After 2 hours",
+            "NewPic": "./pic/sun-clouds-rain.svg"
+        }
+
+    }
+]
