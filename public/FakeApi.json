@@ -8,6 +8,7 @@
         "description": "Sunny",
         "Pic": "./Pic/sun.svg"
     },
+
     {
         "id": 2,
         "wilaya": "Chlef",
@@ -17,6 +18,7 @@
         "description": "Partially covered",
         "Pic": "./Pic/sun-clouds.svg"
     },
+
     {
         "id": 3,
         "wilaya": "Laghouat",
@@ -26,6 +28,7 @@
         "description": "Sunny",
         "Pic": "./Pic/sun.svg"
     },
+
     {
         "id": 4,
         "wilaya": "Oum El Bouaki",
@@ -35,6 +38,7 @@
         "description": "Sunny",
         "Pic": "./Pic/sun.svg"
     },
+    
     {
         "id": 5,
         "wilaya": "Batna",
