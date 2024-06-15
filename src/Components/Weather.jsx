@@ -38,8 +38,8 @@ export default function Weather() {
   }, []);
 
   return (
-    <div className='bg-gradient-to-r from-[#47BBE1] to-[#0093D1] text-[#ffff] min-h-screen'>
-      <div className='flex flex-col items-center'>
+    <div className='bg-gradient-to-r from-[#47BBE1] to-[#0093D1] text-[#ffff] min-h-screen sm:bg-gradient-to-r sm:from-[#47BBE1] sm:to-[#0093D1] sm:text-[#ffff] sm:min-h-screen'>
+      <div className='flex flex-col items-center sm:flex sm:flex-col sm:items-center'>
         <div className='flex flex-row items-center space-x-3 p-4'>
           <input 
             type='number' 
@@ -50,7 +50,7 @@ export default function Weather() {
           <button onClick={handleInput} className='rounded-lg'><img src='./Pic/search_24px.svg' alt='Search logo' /></button>
         </div>
 
-        <div className='p-10'>
+        <div className='p-3 sm:p-5'>
           {weatherInfo && (
             <>
               {weatherInfo.wilaya !== 'not found' && (
@@ -62,13 +62,13 @@ export default function Weather() {
                     <p className='font-mono font-semibold text-3xl sm:font-mono sm:font-semibold sm:text-4xl'>{weatherInfo.description}</p>
                   </div>
                   
-                  <div className='flex flex-col items-center text-center font-mono font-bold text-3xl p-8'>
+                  <div className='flex flex-col items-center font-mono font-bold text-3xl p-8'>
                     <div className='flex flex-row items-center'>
-                      <img src='./Pic/hum.svg' className='h-16' alt='logo'/> 
+                      <img src='./Pic/hum.svg' className='h-12 sm:h-16' alt='logo'/> 
                       | {weatherInfo.humidity}
                     </div>
-                    <div className='flex flex-row items-center text-center'>
-                      <img src='./Pic/windy.svg' className='h-16' alt='logo' />
+                    <div className='flex flex-row items-center'>
+                      <img src='./Pic/windy.svg' className='h-12 sm:h-16' alt='logo' />
                       | {weatherInfo.vent}
                     </div>
                   </div>
